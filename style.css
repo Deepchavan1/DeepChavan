@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: "Poppins";
+            margin: 0; 
+            background: linear-gradient(-120deg, #B4DFE5 35%, #E6E6E6 35%);
+        }
+
+        /* navbar */
+
+        .nav{
+            display: flex; 
+            justify-content: space-around; 
+            margin: 2em 18em;
+        }
+
+        .tags{
+            font-family: "Poppins";
+            color: #6E6F6F;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: large;
+        }
+
+        .tags:hover{
+            color:#212529;
+            transform: scale(1.05);
+        }
+
+
+
+
+        /* about me */
+
+        .about{
+            margin: 0 10em;
+            background-color: #F5F4F4;
+            padding: 30px;
+        }
+
+        .about_sec1{
+            background-color:  #B4DFE5; 
+            padding: 40px 60px; 
+            display: flex; 
+            justify-content: space-evenly;
+        }
+
+        .me{
+            border-radius: 50%;     
+            width: 15em;
+            height: 15em; margin: auto 0;
+        }
+
+        .deep{
+            width: 30em;
+            padding: 40px 10px; 
+            margin: auto 0;
+        }
+
+        .about_sec2_aboutme{
+            margin: 20px; 
+            margin: 20px 0 0 20px;
+        }
+
+        .link {
+            text-decoration: none;
+            font-weight: normal;
+            color: #C8C8C9;
+            padding: 0.5em;
+            margin: 0.5em;
+        }
+
+        .links {
+            margin-left: -2em;
+            padding: 30px 30px 0 30px;
+        }
+
+        .lists {
+            display: flex;
+        }
+
+        .hr-nav {
+            border: 1px solid;
+            color: #707070;
+            border: none;
+            height: 50px;
+            box-shadow: 0 15px 15px -8px #707070;
+            margin: -4em 0px 10px;
+        }
+
+        .img-link {
+            margin: 0 10px;
+        }
+
+        .fa {
+            color: #000;
+        }
+
+        .fa:hover {
+            color: #949595;
+            transform: scale(1.2);
+        }
+
+
+
+
+        /* experience */
+
+        .experience{
+            margin: 5em 10em;
+            padding: 30px 0 0 0;
+        }
+
+        .exp{
+            display: flex; 
+            justify-content: space-evenly; 
+            text-align: center;
+        }
+
+        .exp_card{
+            background-color: #F5F4F4;
+            padding: 40px 20px; 
+            margin: 35px 30px 35px 0;
+            width: 28em; border-radius: 20px;
+        }
+
+        .exp_img{
+            border-radius: 50%; 
+            width: 10em; 
+            height: 10em; 
+            margin: auto 0;
+        }
+
+        .exp_title{
+            font-size: 1.25rem; 
+            margin: 20px 0;
+        }
+
+        .exp_role{
+            color: #797B7B; 
+            margin: 0 20px; 
+            font-size: 1rem;
+        }
+
+        /* publications */
+
+        .publications{
+            margin: 5em 10em;
+        }
+
+        .pub_card{
+            background: linear-gradient(-120deg, #B4DFE5 35%,  #F5F4F4 35%); 
+            padding: 40px 60px; 
+            margin: 35px 0em; 
+            height: unset;
+        }
+
+        .paper{
+            border: none;
+            padding: 5px 20px;
+            border-radius: 5px;
+            background-color: #77BCC6;
+        }
+
+
+
+
+        /* projects */
+
+        .projects{
+            margin: 5em 10em;
+            padding: 30px 0 0 0;
+        }
+
+        .pro_sec{
+            display: flex; 
+            justify-content: space-evenly; 
+            text-align: center;
+        }
+
+        .pro_card_1{
+            background-color: #F5F4F4;
+            padding: 20px 20px; 
+            margin: 35px 30px 35px 0;
+            width: 28em; 
+            border-radius: 20px;
+        }
+
+        .pro_card_2{
+            background: linear-gradient(-120deg, #B4DFE5 40%,  #F5F4F4 40%); 
+            padding: 20px 20px; 
+            margin: 35px 30px 35px 0;
+            width: 28em; 
+            border-radius: 20px;
+        }
+
+        .pro_card_3{
+            background-color: #B4DFE5; 
+            padding: 20px 20px; 
+            margin: 35px 30px 35px 0;
+            width: 28em; 
+            border-radius: 20px;
+        }
+
+        .pro_img{
+            border-radius: 5%; 
+            width: 18em; 
+            height: 12em; 
+            margin: auto 0;
+        }
+
+
+
+
+        /* footer */
+
+        .hr{
+            height: 1px;
+            color: #39C9DD;
+            border-width: 2px;
+            border-style: solid;
+            border-color: initial;
+            border-image: initial;
+            margin: 1.5em 5em 0em;
+        }
+
+        .footer{
+            text-align: center; 
+            padding: 30px 30px 20px 30px;
+        }
+
+        .foot_text{
+            font-size: 0.875rem; 
+            font-weight: 400;
+        }
