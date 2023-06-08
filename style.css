@@ -365,7 +365,7 @@ body {
 }
 
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1080px) {
     .me-text-padding{
         padding: 20px;
     }
