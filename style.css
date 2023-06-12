@@ -14,6 +14,29 @@ body {
 
 /* navbar */
 
+.navbar{
+    margin-top: 1em;
+}
+
+.tags{
+    font-family: "Poppins";
+    color: #6E6F6F;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: large;
+}
+
+.tags:hover{
+    color:#212529;
+    transform: scale(1.05);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-left: unset;
+    padding-right: unset;
+    padding: 0.45em 1.5em;
+}
+
 /*
 
         .nav{
@@ -37,16 +60,36 @@ body {
         } 
         */
 
-.nav-item {
+/* .nav-item {
     margin: 0 3em
-}
+} */
+
+
+
 
 
 
 
 /* about me */
 
-.about {
+.me-margin {
+    margin: 2em 10em;
+    margin-top: 0;
+}
+
+.me-img-div-padding {
+    padding: 2em 5em
+}
+
+.me-img-padding {
+    padding: 2em;
+}
+
+.me-text-padding {
+    padding: 60px
+}
+
+/* .about {
     margin: 0 10em;
     background-color: #F5F4F4;
     padding: 30px;
@@ -101,7 +144,7 @@ body {
     height: 50px;
     box-shadow: 0 15px 15px -8px #707070;
     margin: -4em 0px 10px;
-}
+} */
 
 .img-link {
     margin: 0 10px;
@@ -121,7 +164,34 @@ body {
 
 /* experience */
 
-.experience {
+.exp-main {
+    margin: 5em auto;
+    padding: 30px 0 0 0;
+}
+
+.exp-card-main {
+    justify-content: center;
+}
+
+.exp-img {
+    border-radius: 50%;
+    width: 12em;
+    height: 12em;
+    margin: 1em auto;
+    object-fit: cover;
+}
+
+.exp-card-width {
+    width: 36%;
+    padding: 0 3em;
+}
+
+.exp-card-padding {
+    padding: 2em 1em;
+    background: #F5F4F4;
+}
+
+/* .experience {
     margin: 5em 10em;
     padding: 30px 0 0 0;
 }
@@ -156,11 +226,27 @@ body {
     color: #797B7B;
     margin: 0 20px;
     font-size: 1rem;
-}
+} */
+
+
+
+
+
 
 /* publications */
 
-.publications {
+.pub-card-main {
+    background: linear-gradient(-120deg, #B4DFE5 35%, #F5F4F4 35%);
+    max-width: 90%;
+    margin: 2em auto;
+    padding: 2em;
+}
+
+.pub-img {
+    margin: auto;
+}
+
+/* .publications {
     margin: 5em 10em;
 }
 
@@ -169,20 +255,59 @@ body {
     padding: 40px 60px;
     margin: 35px 0em;
     height: unset;
-}
+} */
 
 .paper {
     border: none;
     padding: 5px 20px;
     border-radius: 5px;
     background-color: #77BCC6;
-}
+} 
 
 
 
 
 /* projects */
 
+.project-card-width {
+    width: 32%;
+    padding: 0 1em;
+}
+
+.github {
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: #77BCC6;
+    margin-top: 1.2em;
+    margin-left: 1.2em;
+}
+
+
+.title {
+    margin-bottom: 1em;
+    margin-left: 1.8em;
+}
+
+.pro-card-main{
+    justify-content: center;
+}
+
+.first-pro-card {
+    background-color: #F5F4F4;
+}
+
+.second-pro-card {
+    background: linear-gradient(-120deg, #B4DFE5 40%, #F5F4F4 40%);
+}
+
+.third-pro-card {
+    background: #B4DFE5;
+
+}
+
+
+/* 
 .projects {
     margin: 5em 10em;
     padding: 30px 0 0 0;
@@ -223,7 +348,7 @@ body {
     width: 18em;
     height: 12em;
     margin: auto 0;
-}
+} */
 
 
 
@@ -255,114 +380,15 @@ body {
 
 
 
-.tags{
-    font-family: "Poppins";
-    color: #6E6F6F;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: large;
-}
-
-.tags:hover{
-    color:#212529;
-    transform: scale(1.05);
-}
 
 
 
 
-.me-margin {
-    margin: 2em 10em;
-}
-
-.me-img-div-padding {
-    padding: 2em 5em
-}
-
-.me-img-padding {
-    padding: 2em;
-}
-
-.me-text-padding {
-    padding: 60px
-}
 
 
 
 
-.exp-main {
-    margin: 5em auto;
-    padding: 30px 0 0 0;
-}
 
-.exp-card-main {
-    justify-content: center;
-}
-
-.exp-img {
-    border-radius: 50%;
-    width: 12em;
-    height: 12em;
-    margin: 1em auto;
-}
-
-.exp-card-width {
-    width: 36%;
-    padding: 0 3em;
-}
-
-.exp-card-padding {
-    padding: 2em 1em;
-    background: #F5F4F4;
-}
-
-.project-card-width {
-    width: 32%;
-    padding: 0 1em;
-}
-
-.github {
-    border: none;
-    padding: 5px 20px;
-    border-radius: 5px;
-    background-color: #77BCC6;
-    margin-top: 1.2em;
-    margin-left: 1.2em;
-}
-
-
-.title {
-    margin-bottom: 1em;
-    margin-left: 1.8em;
-}
-
-.pro-card-main{
-    justify-content: center;
-}
-
-.first-pro-card {
-    background-color: #F5F4F4;
-}
-
-.second-pro-card {
-    background: linear-gradient(-120deg, #B4DFE5 40%, #F5F4F4 40%);
-}
-
-.third-pro-card {
-    background: #B4DFE5;
-
-}
-
-.pub-card-main {
-    background: linear-gradient(-120deg, #B4DFE5 35%, #F5F4F4 35%);
-    max-width: 90%;
-    margin: 2em auto;
-    padding: 2em;
-}
-
-.pub-img {
-    margin: auto;
-}
 
 
 @media screen and (max-width: 1080px) {
@@ -381,7 +407,7 @@ body {
         width: unset;
     }
     .exp-card-main{
-        display: block;
+        /* display: block; */
     }
 
     .me-margin{
